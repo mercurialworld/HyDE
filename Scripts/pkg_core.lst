@@ -42,7 +42,7 @@ hyprsunset                                             # blue light filter
 polkit-gnome                                           # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 pacman-contrib                                         # for system update check
-python-pyamdgpuinfo                                    # for amd gpu info
+# python-pyamdgpuinfo                                  # for amd gpu info
 parallel                                               # for parallel processing
 jq                                                     # for json processing
 imagemagick                                            # for image processing
@@ -63,7 +63,7 @@ qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
 firefox                                                # browser
-kitty                                                  # terminal
+ghostty                                                # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
@@ -75,8 +75,8 @@ fzf                                                    # Command-line fuzzy find
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
 # oh-my-zsh-git|zsh                                    #  plugin manager for zsh (Optional) // Moved to pkg_extra.lst
-zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
-pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
+# zsh-theme-powerlevel10k-git|zsh                      # theme for zsh
+pokeget                                                # display pokemon sprites in terminal (written GO)
 eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
